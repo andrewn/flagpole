@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "rm -r build && mkdir build && cp -R ./node_modules/flag-icon-css/flags build/svg"
+    "build": "rm -fr build && mkdir build && cp -R ./node_modules/flag-icon-css/flags build/svg"
   },
   "keywords": [],
   "author": "",
